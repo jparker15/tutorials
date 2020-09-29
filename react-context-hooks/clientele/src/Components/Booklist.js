@@ -5,7 +5,7 @@ export default class Booklist extends Component {
     static contextType = ThemeContext;
     render() {
         const {isLightTheme,light,dark} = this.context;
-        const theme = !isLightTheme ? light: dark;
+        const theme = isLightTheme ? light: dark;
         return (
             <div className="book-list"
                 style={{color:theme.syntax,background:theme.bg}}
