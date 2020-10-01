@@ -24,7 +24,7 @@ import { ThemeContext } from '../contexts/ThemeContext'
 
 
 // Functional Component
-export const Booklist = () => {
+const Booklist = () => {
     const {isLightTheme,light, dark} = useContext(ThemeContext)
     const theme = isLightTheme? light : dark;
      return (
@@ -37,3 +37,5 @@ export const Booklist = () => {
              </div>
      )
  }
+
+export default Booklist
