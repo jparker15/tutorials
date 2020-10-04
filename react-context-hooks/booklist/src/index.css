@@ -13,11 +13,15 @@ body {
   width: 90%;
   max-width: 700px;
   color: #eee;
+  border: 0;
+  border-radius: 10px 
+ 
 }
 .navbar{
   padding: 10px 20px;
   text-align: center;
-  background: #e9a6af ;
+  background: #e9a6af;
+  border-radius: 10px
 }
 .navbar h1{
   margin: 10px 0;
@@ -52,4 +56,26 @@ body {
 .empty{
   margin: 20px;
   text-align: center;
+}
+
+form{
+  padding: 20px;
+}
+input[type="text"]{
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 6px 0;
+  background: #CDB1A6;
+  color: #fff;
+  border: 0;
+  border-radius: 10px;
+  
+}
+input[type="submit"]{
+  margin: 10px auto;
+  background: #fff;
+  border: 0;
+  padding: 6px 20px;
+  display: block;
 }
